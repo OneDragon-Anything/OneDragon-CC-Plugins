@@ -8,7 +8,7 @@
 
 ```bash
 # 从 GitHub 添加（正式版本）
-claude plugin marketplace add https://github.com/OneDragon-Anything/OneDragon-CC-Plugins.git
+claude plugin marketplace add OneDragon-Anything/OneDragon-CC-Plugins
 
 # 从本地路径添加（开发测试）
 claude plugin marketplace add .
