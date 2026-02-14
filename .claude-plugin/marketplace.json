@@ -1,0 +1,38 @@
+{
+  "name": "onedragon-cc-plugins",
+  "metadata": {
+    "description": "OneDragon development tools collection for Claude Code"
+  },
+  "owner": {
+    "name": "OneDragon",
+    "email": "one-dragon@example.com"
+  },
+  "plugins": [
+    {
+      "name": "uv-pyright-lsp",
+      "source": "./plugins/uv-pyright-lsp",
+      "description": "Pyright LSP server launched via uv run for project-specific Python type checking",
+      "version": "0.1.0",
+      "author": {
+        "name": "OneDragon",
+        "email": "one-dragon@example.com"
+      },
+      "homepage": "https://github.com/OneDragon-Anything/OneDragon-CC-Plugins",
+      "repository": "https://github.com/OneDragon-Anything/OneDragon-CC-Plugins",
+      "license": "MIT",
+      "keywords": [
+        "python",
+        "pyright",
+        "lsp",
+        "type-checking",
+        "uv",
+        "type-hints",
+        "static-analysis",
+        "development",
+        "ide",
+        "completion"
+      ],
+      "category": "Development Tools"
+    }
+  ]
+}
