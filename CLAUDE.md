@@ -37,7 +37,7 @@ OneDragon-CC-Plugins/              # 市场根目录
 ### 单个插件目录结构
 
 ```
-plugin-name/
+plugins/plugin-name/
 ├── .claude-plugin/
 │   └── plugin.json      # Plugin metadata (required)
 ├── .mcp.json            # MCP server configuration (optional)
